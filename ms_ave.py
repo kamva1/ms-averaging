@@ -14,7 +14,7 @@ for p in range(na):
         average[(A1==p)&(A2==q)] = ave_data
 
 ave_data = data
-#t.putcol('CORRECTED_DATA')
-#t.putcol('DATA',average)
-#t.close()
+t.putcol('CORRECTED_DATA')
+t.putcol('DATA',average)
+t.close()
 
